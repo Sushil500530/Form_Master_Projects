@@ -51,8 +51,12 @@ const StateFulForm = () => {
     );
 };
 /**
+ *   ----- controlled element ----
  * 1. use individual field state for each field
- * 2. 
+ * 2. one object in a state holding all the input fields value 
+ * 
+ *  --- uncontrolled element(reference diye niye asa ke uncontrolled bola hoy)----
+ * 3. useRef ot create a reference to the element access value by using like  : nameRef.current.value ;
  */
 
 export default StateFulForm;
