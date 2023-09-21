@@ -57,6 +57,11 @@ const StateFulForm = () => {
  * 
  *  --- uncontrolled element(reference diye niye asa ke uncontrolled bola hoy)----
  * 3. useRef ot create a reference to the element access value by using like  : nameRef.current.value ;
+ * 
+ * --- use hook to handle states and submit and error example react hook form
+ *  --- reusable component----
+ * 
+ * 
  */
 
 export default StateFulForm;
