@@ -1,3 +1,4 @@
+import Friend from "../Friend/Friend";
 import Special from "../Special/Special";
 
 
@@ -9,6 +10,9 @@ const Cusin = ({name,asset}) => {
         {/* <p>has {asset}</p> */}
         {
             asset && <Special asset ={asset}></Special>
+        }
+        {
+            name === 'Shefali' && <Friend></Friend>
         }
     </div>
   );
